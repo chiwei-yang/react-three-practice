@@ -9,7 +9,7 @@ const Stage = (): JSX.Element => {
 			<ambientLight intensity={1} />
 			<directionalLight position={[0, 1, 1]} intensity={2} />
 			<Camera />
-			<Cube />
+			<Cube autoSpin />
 		</Canvas>
 	);
 };
